@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  spanner:
+    container_name: spanner
+    # https://console.cloud.google.com/gcr/images/cloud-spanner-emulator/GLOBAL/emulator
+    image: gcr.io/cloud-spanner-emulator/emulator:1.4.2
+    ports:
+      - "9010:9010"
+      - "9020:9020"
