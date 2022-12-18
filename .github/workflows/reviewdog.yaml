@@ -27,3 +27,4 @@ jobs:
         uses: reviewdog/action-golangci-lint@v2
         with:
           workdir: reviewdog
+          reporter: github-pr-review
