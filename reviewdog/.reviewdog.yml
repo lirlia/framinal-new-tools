@@ -1,4 +1,0 @@
-runner:
-  govet:
-    cmd: go vet -all .
-    format: govet
