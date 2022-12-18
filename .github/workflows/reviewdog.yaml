@@ -29,3 +29,4 @@ jobs:
           workdir: reviewdog
           reporter: github-pr-review
           github_token: ${{ github.token }}
+          golangci_lint_flags: "--config=../.golangci.yml
