@@ -28,3 +28,4 @@ jobs:
         with:
           workdir: reviewdog
           reporter: github-pr-review
+          github_token: ${{ github.token }}
